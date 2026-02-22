@@ -126,7 +126,7 @@ python bot.py
 ```python
 import os
 TOKEN = os.environ.get("DISCORD_TOKEN")
-API_TOKEN = os.environ.get("API_TOKEN", "zick")
+API_TOKEN = os.environ.get("API_TOKEN", "")
 BASE_URL = os.environ.get("BASE_URL", "https://slumzick.xyz")
 OWNER_ID = int(os.environ.get("OWNER_ID", "1074621727541317712"))
 RESULT_CHANNEL_ID = int(os.environ.get("RESULT_CHANNEL_ID", "1474880810136895498"))
